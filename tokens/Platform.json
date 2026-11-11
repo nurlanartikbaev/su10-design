@@ -1,0 +1,1114 @@
+{
+  "Platform": {
+    "$extensions": {
+      "su10": {
+        "modes": [
+          "Mobile",
+          "Desktop"
+        ]
+      }
+    },
+    "gap": {
+      "button-group-gap": {
+        "$type": "number",
+        "$value": "{Spacing.Space-8}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "GAP",
+              "FONT_VARIATIONS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-8}",
+              "Desktop": "{Spacing.Space-8}"
+            }
+          }
+        }
+      }
+    },
+    "stroke": {
+      "border-stroke-regular": {
+        "$type": "number",
+        "$value": "{Spacing.Space-1}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-1}",
+              "Desktop": "{Spacing.Space-1}"
+            }
+          }
+        }
+      },
+      "border-stroke-bold": {
+        "$type": "number",
+        "$value": "{Spacing.Space-2}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-2}",
+              "Desktop": "{Spacing.Space-2}"
+            }
+          }
+        }
+      },
+      "control-selected-stroke": {
+        "$type": "number",
+        "$value": "{Spacing.Space-4}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "STROKE_FLOAT"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-4}",
+              "Desktop": "{Spacing.Space-4}"
+            }
+          }
+        }
+      }
+    },
+    "radius": {
+      "border-radius-100": {
+        "$type": "number",
+        "$value": "{Spacing.Space-4}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-4}",
+              "Desktop": "{Spacing.Space-4}"
+            }
+          }
+        }
+      },
+      "border-radius-150": {
+        "$type": "number",
+        "$value": "{Spacing.Space-6}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-6}",
+              "Desktop": "{Spacing.Space-6}"
+            }
+          }
+        }
+      },
+      "border-radius-200": {
+        "$type": "number",
+        "$value": "{Spacing.Space-8}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-8}",
+              "Desktop": "{Spacing.Space-8}"
+            }
+          }
+        }
+      },
+      "border-radius-300": {
+        "$type": "number",
+        "$value": "{Spacing.Space-12}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-12}",
+              "Desktop": "{Spacing.Space-12}"
+            }
+          }
+        }
+      },
+      "border-radius-400": {
+        "$type": "number",
+        "$value": "{Spacing.Space-16}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-16}",
+              "Desktop": "{Spacing.Space-16}"
+            }
+          }
+        }
+      },
+      "border-radius-500": {
+        "$type": "number",
+        "$value": "{Spacing.Space-20}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-20}",
+              "Desktop": "{Spacing.Space-20}"
+            }
+          }
+        }
+      },
+      "border-radius-600": {
+        "$type": "number",
+        "$value": "{Spacing.Space-24}",
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": "{Spacing.Space-24}",
+              "Desktop": "{Spacing.Space-24}"
+            }
+          }
+        }
+      },
+      "border-radius-rounded": {
+        "$type": "number",
+        "$value": 9999,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "modes": {
+              "Mobile": 9999,
+              "Desktop": 9999
+            }
+          }
+        }
+      }
+    },
+    "height": {
+      "height-100": {
+        "$type": "number",
+        "$value": 12,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 12,
+              "Desktop": 14
+            }
+          }
+        }
+      },
+      "height-200": {
+        "$type": "number",
+        "$value": 14,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 14,
+              "Desktop": 14
+            }
+          }
+        }
+      },
+      "height-300": {
+        "$type": "number",
+        "$value": 16,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 16,
+              "Desktop": 16
+            }
+          }
+        }
+      },
+      "height-400": {
+        "$type": "number",
+        "$value": 18,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 18,
+              "Desktop": 18
+            }
+          }
+        }
+      },
+      "height-500": {
+        "$type": "number",
+        "$value": 18,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 18,
+              "Desktop": 20
+            }
+          }
+        }
+      },
+      "height-600": {
+        "$type": "number",
+        "$value": 20,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 20,
+              "Desktop": 22
+            }
+          }
+        }
+      },
+      "height-650": {
+        "$type": "number",
+        "$value": 24,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 24,
+              "Desktop": 24
+            }
+          }
+        }
+      },
+      "height-700": {
+        "$type": "number",
+        "$value": 24,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 24,
+              "Desktop": 28
+            }
+          }
+        }
+      },
+      "height-800": {
+        "$type": "number",
+        "$value": 28,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 28,
+              "Desktop": 32
+            }
+          }
+        }
+      },
+      "height-900": {
+        "$type": "number",
+        "$value": 32,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 32,
+              "Desktop": 38
+            }
+          }
+        }
+      },
+      "height-1000": {
+        "$type": "number",
+        "$value": 36,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 36,
+              "Desktop": 40
+            }
+          }
+        }
+      }
+    },
+    "typo": {
+      "family": {
+        "Inter": {
+          "$type": "string",
+          "$value": "Inter",
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_FAMILY"
+              ],
+              "modes": {
+                "Mobile": "Inter",
+                "Desktop": "Inter"
+              }
+            }
+          }
+        }
+      },
+      "line-height": {
+        "line-height-100": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 12,
+                "Desktop": 14
+              }
+            }
+          }
+        },
+        "line-height-200": {
+          "$type": "number",
+          "$value": 14,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 14,
+                "Desktop": 14
+              }
+            }
+          }
+        },
+        "line-height-300": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 16,
+                "Desktop": 16
+              }
+            }
+          }
+        },
+        "line-height-400": {
+          "$type": "number",
+          "$value": 18,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 18,
+                "Desktop": 18
+              }
+            }
+          }
+        },
+        "line-height-500": {
+          "$type": "number",
+          "$value": 18,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 18,
+                "Desktop": 20
+              }
+            }
+          }
+        },
+        "line-height-600": {
+          "$type": "number",
+          "$value": 20,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 20,
+                "Desktop": 22
+              }
+            }
+          }
+        },
+        "line-height-700": {
+          "$type": "number",
+          "$value": 24,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 24,
+                "Desktop": 28
+              }
+            }
+          }
+        },
+        "line-height-800": {
+          "$type": "number",
+          "$value": 28,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 28,
+                "Desktop": 32
+              }
+            }
+          }
+        },
+        "line-height-900": {
+          "$type": "number",
+          "$value": 32,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "modes": {
+                "Mobile": 32,
+                "Desktop": 38
+              }
+            }
+          }
+        }
+      },
+      "size": {
+        "text-size-100": {
+          "$type": "number",
+          "$value": 8,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE",
+                "FONT_VARIATIONS"
+              ],
+              "modes": {
+                "Mobile": 8,
+                "Desktop": 10
+              }
+            }
+          }
+        },
+        "text-size-200": {
+          "$type": "number",
+          "$value": 10,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 10,
+                "Desktop": 12
+              }
+            }
+          }
+        },
+        "text-size-300": {
+          "$type": "number",
+          "$value": 12,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 12,
+                "Desktop": 13
+              }
+            }
+          }
+        },
+        "text-size-400": {
+          "$type": "number",
+          "$value": 13,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 13,
+                "Desktop": 14
+              }
+            }
+          }
+        },
+        "text-size-500": {
+          "$type": "number",
+          "$value": 14,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 14,
+                "Desktop": 16
+              }
+            }
+          }
+        },
+        "text-size-600": {
+          "$type": "number",
+          "$value": 16,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 16,
+                "Desktop": 18
+              }
+            }
+          }
+        },
+        "text-size-700": {
+          "$type": "number",
+          "$value": 20,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 20,
+                "Desktop": 24
+              }
+            }
+          }
+        },
+        "text-size-800": {
+          "$type": "number",
+          "$value": 24,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 24,
+                "Desktop": 28
+              }
+            }
+          }
+        },
+        "text-size-900": {
+          "$type": "number",
+          "$value": 28,
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "modes": {
+                "Mobile": 28,
+                "Desktop": 32
+              }
+            }
+          }
+        }
+      },
+      "weight": {
+        "weight-regular": {
+          "$type": "string",
+          "$value": "Regular",
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "modes": {
+                "Mobile": "Regular",
+                "Desktop": "Regular"
+              }
+            }
+          }
+        },
+        "weight-medium": {
+          "$type": "string",
+          "$value": "Medium",
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "modes": {
+                "Mobile": "Medium",
+                "Desktop": "Medium"
+              }
+            }
+          }
+        },
+        "weight-semi-bold": {
+          "$type": "string",
+          "$value": "Semi Bold",
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "modes": {
+                "Mobile": "Semi Bold",
+                "Desktop": "Semi Bold"
+              }
+            }
+          }
+        },
+        "weight-bold": {
+          "$type": "string",
+          "$value": "Bold",
+          "$extensions": {
+            "su10": {
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "modes": {
+                "Mobile": "Bold",
+                "Desktop": "Bold"
+              }
+            }
+          }
+        }
+      }
+    },
+    "size": {
+      "avatar-xl": {
+        "$type": "number",
+        "$value": 64,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 64,
+              "Desktop": 72
+            }
+          }
+        }
+      },
+      "avatar-l": {
+        "$type": "number",
+        "$value": 52,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 52,
+              "Desktop": 54
+            }
+          }
+        }
+      },
+      "avatar-m": {
+        "$type": "number",
+        "$value": 42,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 42,
+              "Desktop": 44
+            }
+          }
+        }
+      },
+      "avatar-s": {
+        "$type": "number",
+        "$value": 32,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 32,
+              "Desktop": 32
+            }
+          }
+        }
+      },
+      "avatar-xs": {
+        "$type": "number",
+        "$value": 24,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 24,
+              "Desktop": 24
+            }
+          }
+        }
+      },
+      "calendar-cell": {
+        "$type": "number",
+        "$value": 40,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 40,
+              "Desktop": 44
+            }
+          }
+        }
+      },
+      "calendar-width": {
+        "$type": "number",
+        "$value": 304,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 304,
+              "Desktop": 332
+            }
+          }
+        }
+      },
+      "date-strip-cell": {
+        "$type": "number",
+        "$value": 56,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 56,
+              "Desktop": 60
+            }
+          }
+        }
+      },
+      "drawer-width-m": {
+        "$type": "number",
+        "$value": 320,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 320,
+              "Desktop": 420
+            }
+          }
+        }
+      },
+      "dialog-width": {
+        "$type": "number",
+        "$value": 343,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 343,
+              "Desktop": 480
+            }
+          }
+        }
+      },
+      "popover-width": {
+        "$type": "number",
+        "$value": 280,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 280,
+              "Desktop": 320
+            }
+          }
+        }
+      },
+      "tooltip-max-width": {
+        "$type": "number",
+        "$value": 240,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 240,
+              "Desktop": 280
+            }
+          }
+        }
+      },
+      "drawer-width-s": {
+        "$type": "number",
+        "$value": 280,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 280,
+              "Desktop": 360
+            }
+          }
+        }
+      },
+      "drawer-width-l": {
+        "$type": "number",
+        "$value": 360,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 360,
+              "Desktop": 640
+            }
+          }
+        }
+      },
+      "header-height": {
+        "$type": "number",
+        "$value": 56,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 56,
+              "Desktop": 56
+            }
+          }
+        }
+      },
+      "context-menu-width": {
+        "$type": "number",
+        "$value": 240,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 240,
+              "Desktop": 240
+            }
+          }
+        }
+      },
+      "stories-ring-xl": {
+        "$type": "number",
+        "$value": 72,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 72,
+              "Desktop": 80
+            }
+          }
+        }
+      },
+      "stories-ring-l": {
+        "$type": "number",
+        "$value": 60,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 60,
+              "Desktop": 62
+            }
+          }
+        }
+      },
+      "stories-ring-m": {
+        "$type": "number",
+        "$value": 50,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 50,
+              "Desktop": 52
+            }
+          }
+        }
+      },
+      "stories-ring-s": {
+        "$type": "number",
+        "$value": 40,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 40,
+              "Desktop": 40
+            }
+          }
+        }
+      },
+      "stories-ring-xs": {
+        "$type": "number",
+        "$value": 32,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 32,
+              "Desktop": 32
+            }
+          }
+        }
+      },
+      "file-icon": {
+        "$type": "number",
+        "$value": 40,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 40,
+              "Desktop": 40
+            }
+          }
+        }
+      },
+      "popover-max-height": {
+        "$type": "number",
+        "$value": 400,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 400,
+              "Desktop": 400
+            }
+          }
+        }
+      },
+      "input-m": {
+        "$type": "number",
+        "$value": 42,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 42,
+              "Desktop": 44
+            }
+          }
+        }
+      },
+      "input-s": {
+        "$type": "number",
+        "$value": 32,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 32,
+              "Desktop": 32
+            }
+          }
+        }
+      },
+      "coachmark-width": {
+        "$type": "number",
+        "$value": 327,
+        "$extensions": {
+          "su10": {
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "modes": {
+              "Mobile": 327,
+              "Desktop": 330
+            }
+          }
+        }
+      }
+    }
+  }
+}

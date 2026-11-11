@@ -1,0 +1,49 @@
+## text	family	style	size	line-height	letter-spacing	var:fontSize	var:fontStyle	var:lineHeight
+Heading 1/h1-bold	Inter	Bold	28	32px	0%	{Platform/typo/size/text-size-900}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-900}
+Heading 1/h1-semibold	Inter	Semi Bold	28	32px	0%	{Platform/typo/size/text-size-900}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-900}
+Heading 2/h2-bold	Inter	Bold	24	28px	0%	{Platform/typo/size/text-size-800}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-800}
+Heading 2/h2-semibold	Inter	Semi Bold	24	28px	0%	{Platform/typo/size/text-size-800}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-800}
+Heading 3/h3-bold	Inter	Bold	20	24px	0%	{Platform/typo/size/text-size-700}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-700}
+Heading 3/h3-semibold	Inter	Semi Bold	20	24px	0%	{Platform/typo/size/text-size-700}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-700}
+Body 1/b1-bold	Inter	Bold	16	20px	0%	{Platform/typo/size/text-size-600}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-600}
+Body 1/b1-semibold	Inter	Semi Bold	16	20px	0%	{Platform/typo/size/text-size-600}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-600}
+Body 1/b1-medium	Inter	Medium	16	20px	0%	{Platform/typo/size/text-size-600}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-600}
+Body 1/b1-regular	Inter	Regular	16	20px	0%	{Platform/typo/size/text-size-600}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-600}
+Body 2/b2-bold	Inter	Bold	14	18px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-500}
+Body 2/b2-semibold	Inter	Semi Bold	14	18px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-500}
+Body 2/b2-medium	Inter	Medium	14	18px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-500}
+Body 2/b2-regular	Inter	Regular	14	18px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-500}
+Body 3/b3-bold	Inter	Bold	13	18px	0%	{Platform/typo/size/text-size-400}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-400}
+Body 3/b3-semibold	Inter	Semi Bold	13	18px	0%	{Platform/typo/size/text-size-400}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-400}
+Body 3/b3-medium	Inter	Medium	13	18px	0%	{Platform/typo/size/text-size-400}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-400}
+Body 3/b3-regular	Inter	Regular	13	18px	0%	{Platform/typo/size/text-size-400}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-400}
+Body 4/b4-bold	Inter	Bold	12	16px	0%	{Platform/typo/size/text-size-300}	{Platform/typo/weight/weight-bold}	{Platform/typo/line-height/line-height-300}
+Body 4/b4-semibold	Inter	Semi Bold	12	16px	0%	{Platform/typo/size/text-size-300}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-300}
+Body 4/b4-medium	Inter	Medium	12	16px	0%	{Platform/typo/size/text-size-300}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-300}
+Body 4/b4-regular	Inter	Regular	12	16px	0%	{Platform/typo/size/text-size-300}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-300}
+Caption 1/c1-semibold	Inter	Semi Bold	10	14px	0%	{Platform/typo/size/text-size-200}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-200}
+Caption 1/c1-medium	Inter	Medium	10	14px	0%	{Platform/typo/size/text-size-200}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-200}
+Caption 1/c1-regular	Inter	Regular	10	14px	0%	{Platform/typo/size/text-size-200}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-200}
+Caption 2/c2-semibold	Inter	Semi Bold	8	12px	0%	{Platform/typo/size/text-size-100}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-100}
+Caption 2/c2-medium	Inter	Medium	8	12px	0%	{Platform/typo/size/text-size-100}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-100}
+Caption 2/c2-regular	Inter	Regular	8	12px	0%	{Platform/typo/size/text-size-100}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-100}
+Paragraph 1/p1-semibold	Inter	Semi Bold	14	20px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-semi-bold}	{Platform/typo/line-height/line-height-600}
+Paragraph 1/p1-medium	Inter	Medium	14	20px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-medium}	{Platform/typo/line-height/line-height-600}
+Paragraph 1/p1-regular	Inter	Regular	14	20px	0%	{Platform/typo/size/text-size-500}	{Platform/typo/weight/weight-regular}	{Platform/typo/line-height/line-height-600}
+## effect	layers (type color x y blur spread)
+shadow-medium	DROP_SHADOW #00000014 0 0 8 0; DROP_SHADOW #00000029 0 8 8 0
+shadow-small	DROP_SHADOW #0000000a 0 0 4 0; DROP_SHADOW #00000014 0 4 4 0
+blur-medium	BACKGROUND_BLUR 12
+blur-small	BACKGROUND_BLUR 8
+## paint	layers (type stop:color ...)
+BlueGradient	GRADIENT_LINEAR 0:#329efd 1:#0c78f8
+GreenGradient	GRADIENT_LINEAR 0:#37b737 1:#19991c
+RedGradient	GRADIENT_LINEAR 0:#fd5f52 1:#ea2221
+OrangeGradient	GRADIENT_LINEAR 0:#fc9711 1:#df710e
+PurpleGradient	GRADIENT_LINEAR 0:#b37bed 1:#9e50e3
+YellowGradient	GRADIENT_LINEAR 0:#fedf89 1:#fdb022
+StoriesGradient	GRADIENT_LINEAR 0:#285b6e 0.505:#4dafd4 1:#eeba1b
+LightBlueGradient	GRADIENT_LINEAR 0:#77befd 1:#329efd
+BackgroundTop	GRADIENT_LINEAR 0.5:#ffffff00 1:#f7f7f7
+BackgroundBot	GRADIENT_LINEAR 0:#f7f7f7 0.5:#ffffff00
+IconGradient	GRADIENT_LINEAR 0:#329efd 1:#0c78f8

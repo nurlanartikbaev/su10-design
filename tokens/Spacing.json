@@ -1,0 +1,198 @@
+{
+  "Spacing": {
+    "$extensions": {
+      "su10": {
+        "modes": [
+          "Mode 1"
+        ]
+      }
+    },
+    "Space-0": {
+      "$type": "number",
+      "$value": 0,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-1": {
+      "$type": "number",
+      "$value": 1,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-2": {
+      "$type": "number",
+      "$value": 2,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-4": {
+      "$type": "number",
+      "$value": 4,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-6": {
+      "$type": "number",
+      "$value": 6,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-8": {
+      "$type": "number",
+      "$value": 8,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-12": {
+      "$type": "number",
+      "$value": 12,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-16": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-20": {
+      "$type": "number",
+      "$value": 20,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-24": {
+      "$type": "number",
+      "$value": 24,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-32": {
+      "$type": "number",
+      "$value": 32,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-40": {
+      "$type": "number",
+      "$value": 40,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-48": {
+      "$type": "number",
+      "$value": 48,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-64": {
+      "$type": "number",
+      "$value": 64,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-80": {
+      "$type": "number",
+      "$value": 80,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-96": {
+      "$type": "number",
+      "$value": 96,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    },
+    "Space-128": {
+      "$type": "number",
+      "$value": 128,
+      "$extensions": {
+        "su10": {
+          "scopes": [
+            "GAP"
+          ]
+        }
+      }
+    }
+  }
+}

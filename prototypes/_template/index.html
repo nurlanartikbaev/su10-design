@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Шаблон прототипа SU10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../dist/tokens.css">
+  <style>
+    body {
+      margin: 0;
+      background: var(--su10-color-semantic-surface-1-layer);
+      color: var(--su10-color-semantic-text-primary);
+      font-family: var(--su10-typo-family-inter);
+    }
+    .screen { max-width: 480px; margin: 0 auto; padding: var(--su10-space-16); display: grid; gap: var(--su10-space-12); }
+    .card {
+      background: var(--su10-color-semantic-surface-2-layer);
+      border: var(--su10-stroke-border-stroke-regular) solid var(--su10-color-semantic-border-secondary);
+      border-radius: var(--su10-radius-border-radius-400);
+      padding: var(--su10-space-16);
+      display: grid; gap: var(--su10-space-8);
+      box-shadow: var(--su10-effect-shadow-small);
+    }
+    .muted { color: var(--su10-color-semantic-text-secondary); margin: 0; }
+    .row { display: flex; gap: var(--su10-gap-button-group-gap); }
+    .btn {
+      height: var(--su10-size-input-m); padding: 0 var(--su10-space-16); border: 0; cursor: pointer;
+      border-radius: var(--su10-radius-border-radius-300); font: inherit;
+    }
+    .btn-primary { background: var(--su10-color-component-button-info-primary); color: var(--su10-color-semantic-text-white-static); }
+    .btn-primary:hover { background: var(--su10-color-component-button-info-primary-hover); }
+    .btn-secondary { background: var(--su10-color-component-button-info-secondary); color: var(--su10-color-semantic-text-info-static); }
+    .btn-secondary:hover { background: var(--su10-color-component-button-info-secondary-hover); }
+    .badge {
+      justify-self: start; padding: var(--su10-space-2) var(--su10-space-8); border-radius: var(--su10-radius-border-radius-rounded);
+      background: var(--su10-color-component-badge-success-surface); color: var(--su10-color-component-badge-success-content);
+    }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <main class="screen">
+    <div class="row">
+      <button class="btn btn-secondary su10-text-b3-medium" id="theme">Тёмная тема</button>
+    </div>
+
+    <section class="card" id="step-1">
+      <span class="badge su10-text-c1-semibold">Новое</span>
+      <h1 class="su10-text-h3-bold" style="margin:0">Задание готово</h1>
+      <p class="muted su10-text-p1-regular">Проверьте ответы и отправьте учителю.</p>
+      <div class="row">
+        <button class="btn btn-primary su10-text-b2-semibold" data-go="step-2">Отправить</button>
+        <button class="btn btn-secondary su10-text-b2-semibold">Изменить</button>
+      </div>
+    </section>
+
+    <section class="card" id="step-2" hidden>
+      <h1 class="su10-text-h3-bold" style="margin:0">Отправлено</h1>
+      <p class="muted su10-text-p1-regular">Учитель проверит задание.</p>
+      <div class="row">
+        <button class="btn btn-secondary su10-text-b2-semibold" data-go="step-1">Назад</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Переходы: кнопка с data-go="id" показывает экран с этим id.
+    document.addEventListener("click", e => {
+      const id = e.target.closest("[data-go]")?.dataset.go;
+      if (!id) return;
+      document.querySelectorAll(".card").forEach(c => (c.hidden = c.id !== id));
+    });
+    const root = document.documentElement;
+    const btn = document.getElementById("theme");
+    const isDark = () => root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    const label = () => (btn.textContent = isDark() ? "Светлая тема" : "Тёмная тема");
+    label();
+    btn.addEventListener("click", () => {
+      root.dataset.theme = isDark() ? "light" : "dark";
+      label();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JUZ40 · Прототипы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/tokens.css">
+  <script>try { const t = localStorage.getItem("su10-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--su10-color-semantic-surface-1-layer); color: var(--su10-color-semantic-text-primary); font-family: var(--su10-typo-family-inter); }
+    p, h1, h2 { margin: 0; }
+    a, button { font: inherit; color: inherit; text-decoration: none; background: none; border: 0; cursor: pointer; padding: 0; }
+    .ico { display: block; flex: none; background: currentColor; -webkit-mask: var(--src) center / contain no-repeat; mask: var(--src) center / contain no-repeat; }
+
+    .top {
+      position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: var(--su10-space-16);
+      padding: var(--su10-space-12) var(--su10-space-24); border-bottom: 1px solid var(--su10-color-semantic-border-secondary);
+      background: var(--su10-color-component-mobile-tabbar-v2-surface); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    }
+    .logo { width: 78px; height: 32px; color: var(--su10-color-semantic-icon-brand); --src: url(prototypes/onboarding/assets/d-logo.svg); }
+    .top .name { flex: 1; color: var(--su10-color-semantic-text-secondary); }
+    .theme { padding: var(--su10-space-8) var(--su10-space-12); border-radius: var(--su10-radius-border-radius-200); color: var(--su10-color-semantic-text-info-static); }
+    .theme:hover { background: var(--su10-color-component-button-tertiary-hover); }
+
+    main { max-width: 1120px; margin: 0 auto; padding: var(--su10-space-32) var(--su10-space-16) var(--su10-space-64); display: flex; flex-direction: column; gap: var(--su10-space-32); }
+    .intro { display: flex; flex-direction: column; gap: var(--su10-space-8); }
+    .muted { color: var(--su10-color-semantic-text-secondary); }
+    section { display: flex; flex-direction: column; gap: var(--su10-space-16); }
+    .sec-title { display: flex; align-items: center; gap: var(--su10-space-8); }
+    .count { padding: var(--su10-space-2) var(--su10-space-8); border-radius: 9999px; background: var(--su10-color-component-badge-neutral-surface); color: var(--su10-color-component-badge-neutral-content); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--su10-space-16); }
+
+    .card {
+      display: flex; flex-direction: column; gap: var(--su10-space-12); padding: var(--su10-space-16);
+      border-radius: var(--su10-radius-border-radius-400); background: var(--su10-color-semantic-surface-2-layer);
+      box-shadow: inset 0 0 0 1px var(--su10-color-semantic-border-secondary);
+    }
+    .card .head { display: flex; align-items: flex-start; gap: var(--su10-space-8); }
+    .card .head p { flex: 1; }
+    .badge { padding: var(--su10-space-2) var(--su10-space-8); border-radius: 9999px; white-space: nowrap; }
+    .badge.done { background: var(--su10-color-component-badge-success-surface); color: var(--su10-color-component-badge-success-content); }
+    .badge.queue { background: var(--su10-color-component-badge-neutral-surface); color: var(--su10-color-component-badge-neutral-content); }
+    .card .about { flex: 1; color: var(--su10-color-semantic-text-secondary); }
+    .actions { display: flex; flex-wrap: wrap; gap: var(--su10-space-8); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: var(--su10-space-8) var(--su10-space-12); border-radius: var(--su10-radius-border-radius-200); }
+    .btn.primary { background: var(--su10-color-component-button-info-primary); color: var(--su10-color-semantic-text-white-static); }
+    .btn.primary:hover { background: var(--su10-color-component-button-info-primary-hover); }
+    .btn.secondary { background: var(--su10-color-component-button-info-secondary); color: var(--su10-color-semantic-text-info-static); }
+    .btn.secondary:hover { background: var(--su10-color-component-button-info-secondary-hover); }
+    .btn.ghost { color: var(--su10-color-semantic-text-info-static); }
+    .btn.ghost:hover { background: var(--su10-color-component-button-tertiary-hover); }
+    .btn:focus-visible, .theme:focus-visible { outline: 2px solid var(--su10-color-semantic-border-focus); outline-offset: 2px; }
+
+    footer { color: var(--su10-color-semantic-text-tertiary); }
+    footer a { color: var(--su10-color-semantic-text-info-static); }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <span class="ico logo" role="img" aria-label="JUZ40"></span>
+    <p class="name su10-text-b2-medium">Прототипы</p>
+    <button class="theme su10-text-b3-medium" id="theme" type="button"></button>
+  </header>
+
+  <main>
+    <div class="intro">
+      <h1 class="su10-text-h2-semibold">Редизайн кабинета ученика</h1>
+      <p class="muted su10-text-p1-regular">Фичи со статусом Ready for dev из Figma «Redesign (Student)». Откройте прототип и выберите телефон или десктоп.</p>
+    </div>
+
+    <section aria-labelledby="done-title">
+      <div class="sec-title"><h2 class="su10-text-b1-semibold" id="done-title">Готово</h2><span class="count su10-text-c1-semibold" id="done-count"></span></div>
+      <div class="grid" id="done"></div>
+    </section>
+
+    <section aria-labelledby="queue-title">
+      <div class="sec-title"><h2 class="su10-text-b1-semibold" id="queue-title">В очереди</h2><span class="count su10-text-c1-semibold" id="queue-count"></span></div>
+      <div class="grid" id="queue"></div>
+    </section>
+
+    <footer class="su10-text-c1-regular">Токены: <a href="dist/tokens.css">dist/tokens.css</a>. Новый прототип добавляют в <a href="prototypes/manifest.js">prototypes/manifest.js</a>.</footer>
+  </main>
+
+  <script src="prototypes/manifest.js"></script>
+  <script>
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const card = f => {
+      const done = f.views.length > 0;
+      const views = f.views.map((v, i) => `<a class="btn ${i === 0 ? "primary" : "secondary"} su10-text-b4-semibold" href="${esc(v.path)}">${esc(v.label)}</a>`).join("");
+      return `<article class="card">
+        <div class="head"><p class="su10-text-b1-semibold">${esc(f.title)}</p><span class="badge ${done ? "done" : "queue"} su10-text-c1-semibold">${done ? "Готово" : "В очереди"}</span></div>
+        <p class="about su10-text-b3-regular">${esc(f.about)}</p>
+        <div class="actions">${views}<a class="btn ghost su10-text-b4-semibold" href="${SU10_FIGMA}${f.node}" target="_blank" rel="noopener">Макет</a></div>
+      </article>`;
+    };
+    const done = SU10_FEATURES.filter(f => f.views.length), queue = SU10_FEATURES.filter(f => !f.views.length);
+    document.getElementById("done").innerHTML = done.map(card).join("");
+    document.getElementById("queue").innerHTML = queue.map(card).join("");
+    document.getElementById("done-count").textContent = done.length;
+    document.getElementById("queue-count").textContent = queue.length;
+
+    const root = document.documentElement, btn = document.getElementById("theme");
+    const isDark = () => (root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches);
+    const label = () => (btn.textContent = isDark() ? "Светлая тема" : "Тёмная тема");
+    btn.onclick = () => { root.dataset.theme = isDark() ? "light" : "dark"; try { localStorage.setItem("su10-theme", root.dataset.theme); } catch (e) {} label(); };
+    label();
+  </script>
+</body>
+</html>

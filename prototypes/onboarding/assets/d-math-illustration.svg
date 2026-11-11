@@ -1,0 +1,64 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="180" height="82" viewBox="0 0 180 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="illustration" filter="url(#filter0_f_0_363)">
+<line id="Line 1" x1="32.6502" y1="42.0307" x2="55.5145" y2="19.6427" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 3" x1="103.709" y1="42.4069" x2="68.5515" y2="17.2924" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 5" x1="115.907" y1="71.4913" x2="78.9067" y2="64.4912" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 4" x1="100.954" y1="11.4987" x2="69.0357" y2="13.781" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 6" x1="142.296" y1="20.6316" x2="115.836" y2="11.4725" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 7" x1="103.806" y1="42.5393" x2="142.616" y2="26.1612" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 8" x1="115.856" y1="71.5211" x2="155.856" y2="59.5211" stroke="black" stroke-opacity="0.24"/>
+<line id="Line 2" x1="34.1578" y1="50.5255" x2="64.5234" y2="60.6216" stroke="black" stroke-opacity="0.24"/>
+<g id="24px/icon/check-circle-2-Filled">
+<circle id="Ellipse 154" cx="27" cy="47.388" r="6" fill="#22A825"/>
+<path id="Vector 1251" d="M23.6667 47.0547L26 49.388L30 45.388" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<g id="24px/icon/check-circle-2-Filled_2">
+<circle id="Ellipse 154_2" cx="62" cy="15" r="6" fill="#22A825"/>
+<path id="Vector 1251_2" d="M58.6667 14.6667L61 17L65 13" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<g id="24px/icon/check-circle-2-Filled_3">
+<circle id="Ellipse 154_3" cx="104" cy="42" r="6" fill="#1A8BFE"/>
+<g id="Ellipse 155">
+<circle cx="104" cy="42" r="6" fill="#1A8BFE"/>
+<circle cx="104" cy="42" r="6.5" stroke="black" stroke-opacity="0.24"/>
+</g>
+<path id="Vector 1251_3" d="M100.667 41.6667L103 44L107 40" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<g id="24px/icon/check-circle-2-Filled_4">
+<circle id="Ellipse 154_4" cx="116" cy="71" r="6" fill="#1A8BFE"/>
+<g id="Ellipse 155_2">
+<circle cx="116" cy="71" r="6" fill="#1A8BFE"/>
+<circle cx="116" cy="71" r="6.5" stroke="black" stroke-opacity="0.24"/>
+</g>
+<path id="Vector 1251_4" d="M112.667 70.6667L115 73L119 69" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<g id="24px/icon/check-circle-2-Filled_5">
+<circle id="Ellipse 154_5" cx="108" cy="11" r="6" fill="#1A8BFE"/>
+<circle id="Ellipse 155_3" cx="108" cy="11" r="6" fill="#1A8BFE"/>
+<path id="Vector 1251_5" d="M104.667 10.6667L107 13L111 9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+<g id="24px/icon/check-circle-2-Filled_6">
+<circle id="Ellipse 154_6" cx="150" cy="23" r="6" fill="#F08507"/>
+<circle id="Ellipse 155_4" cx="150" cy="23" r="6" fill="#F08507"/>
+<g id="Vector 1251_6">
+</g>
+</g>
+<g id="24px/icon/check-circle-2-Filled_7">
+<circle id="Ellipse 154_7" cx="164" cy="58" r="6" fill="#FDB022"/>
+<circle id="Ellipse 155_5" cx="164" cy="58" r="6" fill="#FDB022"/>
+<g id="Vector 1251_7">
+</g>
+</g>
+<g id="24px/icon/check-circle-2-Filled_8">
+<circle id="Ellipse 154_8" cx="72" cy="63" r="6" fill="#22A825"/>
+<path id="Vector 1251_8" d="M68.6667 62.6667L71 65L75 61" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_363" x="-3" y="-1" width="186" height="85" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_0_363"/>
+</filter>
+</defs>
+</svg>

@@ -1,6 +1,8 @@
 # su10-design
 
 Источник правды дизайн-системы SU10: токены, CSS и кликабельные прототипы.
+
+Прототипы онлайн: https://nurlanartikbaev.github.io/su10-design/
 Figma и Claude — копии этого репозитория.
 
 ## Правило
